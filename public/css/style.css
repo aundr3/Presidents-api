@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+
+body {
+    background-color: #3c3b6e;
+}
+
+h1 {
+    color: #b22234;
+}
+
+.top-nav-link {
+    color: #fff;
+}
+
+.top-nav-link:hover {
+    color: #b22234;
+}
+
+.item-name {
+    color: #fff;
+    font-size: 30px;
+}
+
+.item-text {
+    color: #fff;
+    font-size: 15px;
+}

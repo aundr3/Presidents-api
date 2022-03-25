@@ -1,0 +1,16 @@
+<%- include('../partials/header') %> 
+
+<section class="section presidents-section">
+    <% data.forEach(item=> { %>
+        <div class="text-center">
+            <p class="item-name text-uppercase"><%= item.name %></p>
+            <img src="<%= item.photo %> " alt="">
+        </div>
+        <div class="container">
+            <p class="item-text">Ordinal: <%= item.ordinal %></p>
+            <p class="item-text">Years in Office: <%= item.yearsInOffice %></p>
+        </div>
+    <% }) %>
+</section>
+
+<%- include('../partials/footer') %> 
